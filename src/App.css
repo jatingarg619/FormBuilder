@@ -1,0 +1,28 @@
+
+.App {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+}
+
+
+.form-flex{
+  display: flex;
+}
+
+.div-margin{
+  margin: 10px;
+}
+
+.form-inlineflex{
+  display: inline-flex
+}
+
+.form-padding{
+  padding: 10px
+}
+
+.icon-padding{
+  padding: 5px;
+  cursor: pointer;
+}
