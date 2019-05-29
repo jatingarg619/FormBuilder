@@ -127,7 +127,7 @@ function FormBuilder (props)  {
 	 		switch(item['type']) {
     			case 'static':
      				  return (
-     				  		 <div  className="form-inlineflex">
+     				  		 <div  className="form-inlineflex border">
      				  				<StaticText placeholder={'Write a text here'} value={item['text']}  position={i} onChange={handleExistingText}  />
      				  				{renderSideBar(i)}
      				  		</div>
